@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        label{
+            color:aquamarine
+        }
+        img{width: 500px;
+            margin-left:40%;
+            border-style:solid;
+            border:darkcyan;
+            border-radius: 50%;
+            margin-top:-20%;
+
+        }
+        body{/* background-color: rgba(212, 189, 17, 0.805);*/
+        /*for many colors at a time use*/ background-image: linear-gradient(gray,pink)
+        }
+        .gen{color:indigo
+        }
+        #skill1{font-size:40px;
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="right" style="color:aqua; font-size:50px; font-family:'Times New Roman', Times, serif;font-style:oblique"> WELCOME TO MY FIRST WEBSITE</marquee>
+    <form action="mailto:aquibkhanstud@gmail.com" method="POST">
+        NAME: <br>
+        <input type="text" name="Name" placeholder="Enter your name" required>
+        <br><br>
+        Gender: <br>
+        <input type="radio"  name="Gender" value="Male" id="gender-m">
+        <label for="gender-m"class="gen">MALE</label>
+        <input type="radio"  name="Gender" value="Female" id="gender-f">
+        <label for="gender-f" class="gen">FEMALE</label>
+        <br><br>
+        <h4>Skills:</h4>
+        <input type="checkbox" name="Skills" id="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="Skills" id="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+        <input type="checkbox" name="Skills" id="skill3" value="JAVA SCRIPT">
+        <label for="skill3">JAVA SCRIPT</label>
+        <input type="checkbox" name="Skills" id="skill4" value="PYTHON">
+        <label for="skill4">PYTHON</label>
+        <br> <br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" value="reset">
+    </form><br>
+        <h3>List of Famous Personalities:</h3> 
+         <select name="List of students" id="">
+            <option>Select one Personality</option>
+            <option>Lokesh</option>
+            <option>Virat</option>
+            <option selected >Messi</option>
+            <option>Ronaldo</option>
+        </select><br>
+        <img src="https://wallpaperaccess.com/full/459026.jpg">
+        <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque minus similique harum ducimus, accusantium ut dicta, optio earum placeat libero error ullam, eum facilis porro facere! Deleniti perspiciatis ipsam ipsa.</p></div>
+</body>
+</html>
